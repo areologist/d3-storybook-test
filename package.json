@@ -1,0 +1,41 @@
+{
+  "name": "sb-two-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@types/d3-array": "^1.2.1",
+    "@types/d3-axis": "^1.0.9",
+    "@types/d3-scale": "^1.0.10",
+    "@types/d3-selection": "^1.1.0",
+    "@types/d3-shape": "^1.2.1",
+    "@types/d3-time-format": "^2.1.0",
+    "d3-array": "^1.2.1",
+    "d3-axis": "^1.0.8",
+    "d3-scale": "^1.0.6",
+    "d3-selection": "^1.1.0",
+    "d3-shape": "^1.2.0",
+    "d3-time-format": "^2.1.0",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-scripts-ts": "2.7.0"
+  },
+  "scripts": {
+    "start": "react-scripts-ts start",
+    "build": "react-scripts-ts build",
+    "test": "react-scripts-ts test --env=jsdom",
+    "eject": "react-scripts-ts eject",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "devDependencies": {
+    "@storybook/addon-actions": "^3.2.12",
+    "@storybook/addon-links": "^3.2.12",
+    "@storybook/react": "^3.2.12",
+    "@types/jest": "^21.1.2",
+    "@types/node": "^8.0.39",
+    "@types/react": "^16.0.12",
+    "@types/react-dom": "^16.0.1",
+    "@types/storybook__react": "^3.0.5",
+    "awesome-typescript-loader": "^3.2.3"
+  }
+}
